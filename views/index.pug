@@ -3,9 +3,10 @@ extends layout
 block content
   h1= title
   p Hello welcome to  #{title}
-  
+
   button(type="button", class="btn btn-info" onclick="goFaster()") Press Me
   div#faster Increase the speed 
+  a(href="/eagle") Icecream Search Results
   script.
     let mph = 20;
     let change = 1;
